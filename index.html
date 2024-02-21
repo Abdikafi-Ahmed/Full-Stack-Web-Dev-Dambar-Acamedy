@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hal-Abuur Graphics</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>Course
+                <div class="sub_menu">
+                    <ul>
+                        <li>Web-development</li>
+                        <li>Database</li>
+                        <li>Mobile App</li>
+                        <li>Networking</li>
+                        <li>Programming</li>
+                    </ul>
+                </div>
+            </li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+       
+    </div>
+
+    <div class="course">
+      
+        <div>
+            <img src="young-african-muslim-woman-in-hijab-small.jpg">
+            <h6>English Language</h6>
+            <p>Waxaa laguu bari doono Speaking iyo Grammar. </p>
+        
+
+        </div>
+          
+        <div>
+            <img src="Bilowga-Computer-ka.jpg">
+            <h6>Html Course</h6>
+            <p>waxa aad ku baran dooontaa sida loo sameeyo websites ka</p>
+
+        </div>
+
+        <div>
+            <img src="download (51).jpg">
+            <h6>Python Programming Course</h6>
+            <p>waxa aad ku baaran doontaa sida website loogu sameeyo python</p>
+
+        </div>
+
+        <div>
+            <img src="images (14).jpg">
+            <h6>Basic Computer Course</h6>
+            <p>Waxa aad ku baran doontaa Basic Computer Ms word, Mr Excel</p>
+
+        </div>
+
+
+      
+
+        
+        
+
+        
+
+    </div>
+
+
+
+    
+   
+
+  <style>
+    * {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    width: 100%;
+    background-color: green;
+    color: white;
+    position:fixed;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    width: 100px;
+    position: relative;
+}
+
+.nav li:hover .sub_menu {
+    display: block;
+    
+}
+
+.sub_menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(10, 221, 10);
+}
+
+    .course{
+        width:90%;
+        height:200px;
+        display:flex;
+        margin:auto;  
+        
+    }
+
+    .course div {
+        width:30%;
+        background-color: #f2f2f2;
+        position: relative;
+        top:20px;
+        z-index: -1;
+
+
+
+    } 
+    .course img{
+      width:100%;
+
+    }
+
+  
+    
+  </style>
+</body>
+</html>
+
